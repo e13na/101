@@ -1,0 +1,102 @@
+/* body: text and padding */
+body {
+    /* background-color: #46484D; 
+     background-image: url("Romance_101_X_Standing_Egg_album_cover.webp"); 
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: #fafafa;
+    padding: 15px;
+}
+
+/* background fade */
+html {
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(65, 81, 97, 0.9), rgba(218, 172, 210, 0.8)), url("Romance_101_X_Standing_Egg_album_cover.webp");
+    background-size:cover;
+  }
+
+/* for mages that are to be centered */
+.main {
+    text-align: center;
+  }
+
+/* intro in base page */
+.top {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    background-color: rgba(228, 143, 138, 0.8); 
+    text-align: center;
+    width: auto;
+    /* width: 550px; */
+}
+
+/* buttons in base page */
+.buttons {
+    border-radius: 60px;
+    width: 60px;
+    display: inline-block;
+    background-color: rgba(245, 196, 193, 1.0); 
+    text-align: center;
+}
+
+/* overlay link color for bttons */
+.buttontext>a {
+    color: #9384cb;
+}
+
+/* char profile limitation boxes */
+.chars {
+    width: 200px;
+    display: inline-block;
+    height: 400px;
+    background-color: none;
+}
+
+/* bareum profile div box size/placement */
+.bareum {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* boxes */
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+/* link edits */
+a {
+    /* color: #b8b3f9; */
+    color: #b8b3f9;
+}
+
+a:hover {
+    color:#ffecd4;
+    text-decoration: none;
+}
+a:active {
+    color: #cb5e8f;
+}
+
+/* separation line color */
+hr {
+    border-color:#b8b3f9;
+}
+
+/* home button */
+.homep {
+    text-align: center;
+}
+
+/* photo size */
+.charweb {
+    height: 500px;
+    margin: 30px;
+}
